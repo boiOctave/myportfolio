@@ -6,8 +6,10 @@ import {
   SiJavascript,
   SiMongodb,
   SiMui,
+  SiNextdotjs,
   SiNodedotjs,
   SiReact,
+  SiSpringboot,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -43,6 +45,13 @@ export default function Projects() {
       tech: [SiReact, SiMui],
       link: "https://octave-metabnb.netlify.app",
       cover: "/meta.png",
+      background: "bg-green-500",
+    },
+    {
+      title: "Ecommerce Project (Upcoming..)",
+      tech:  [SiNextdotjs, SiMui, SiMongodb, SiSpringboot],
+      link: "https://techrizz.netlify.app",
+      cover: "/nest.png",
       background: "bg-green-500",
     },
   ];
