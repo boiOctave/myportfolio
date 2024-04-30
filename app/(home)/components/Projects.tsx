@@ -50,7 +50,7 @@ export default function Projects() {
     {
       title: "Ecommerce Project (Upcoming..)",
       tech:  [SiNextdotjs, SiMui, SiMongodb, SiSpringboot],
-      link: "https://techrizz.netlify.app",
+      link: "https://techwrizz.netlify.app",
       cover: "/nest.png",
       background: "bg-green-500",
     },
