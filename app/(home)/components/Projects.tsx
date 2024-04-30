@@ -66,23 +66,20 @@ export default function Projects() {
         {
             projects.map((project, index)=>{
                 return <Link key={index} className="" href={project.link}>
-                    <div className={cn("p-5 rounded-md", project.background)}>
+                    <div className={cn("p-1 rounded-md", project.background)}>
                         <DirectionAwareHover
                         imageUrl={project.cover}
                         className="w-full space-y-5 cursor-pointer"
                         >
                             <div className="space-y-5">
-
                       
                             <h1 className="text-2xl font-bold">{project.title}</h1>
-
                             <div className="flex items-center gap-5">
                                 {project.tech.map((Icon, index)=>{
                                     return <Icon className="w-8 h-8" key={index} />
                                 })}
                             </div>
                             </div>
-
                             </DirectionAwareHover>
                     </div>
                 </Link>

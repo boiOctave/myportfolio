@@ -7,7 +7,7 @@ export default function NavBar({className}:{className?:string}) {
 
     const socials = [
         {
-            link:"www.linkedin.com/in/wrizz",
+            link:"https://linkedin.com/in/wrizz",
             label: "LinkedIn",
             Icon: SiLinkedin,
         },
