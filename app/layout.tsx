@@ -10,17 +10,17 @@ export const metadata: Metadata = {
 
 	title: "TechWrizz Portfolio",
 	authors: {
-		name: "TechWrzz",
+		name: "TechWrizz",
 	},
 
 	description:
 		"Based in Lagos, Nigeria I'm a Fullstack developer passionate about building a modern web application that users love.",
 	openGraph: {
-		title: "Daily Vote",
+		title: "TechWrizz",
 		description:
 			"Based in Lagos, Nigeria I'm a Fullstack developer passionate about building a modern web application that users love.",
 		url: "https://techwrizz.netlify.app",
-		siteName: "Daily Vote",
+		siteName: "TechWrizz",
 		images: "/og.png",
 		type: "website",
 	},
